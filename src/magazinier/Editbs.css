@@ -1,0 +1,69 @@
+.partiesec{
+  
+    
+
+background-color:rgb(255, 255, 255);
+
+
+
+}
+.contcreerbci{
+
+
+    background-color: #F9F6F6;
+
+}
+.partie1{
+    margin-top:50px ;
+    margin-left: 0px;
+}
+.partieservice,.partiedate{
+    margin-top: 50px;
+    margin-left: 60px;
+
+
+
+}
+.partiedate{
+   
+}
+.partieservice{
+    flex-direction: column;
+    display: flex;
+justify-content: space-between;
+
+}
+.serviceinput{
+    background-color: #eaeaea;
+    width:300px;
+    height:40px;
+    border-radius:10px ;
+    margin-top: 15px;
+    font-size: 12px;
+    padding-left: 10px;
+ 
+ 
+    border: 1px solid #9a9898;
+
+
+
+
+}
+.servicelab{
+    font-size: 15px;
+    font-weight: 500;
+
+
+
+}
+
+
+
+
+.partiepreneur{
+
+    margin-left: 0px;
+
+
+
+}

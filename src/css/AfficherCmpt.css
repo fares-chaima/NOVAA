@@ -1,0 +1,491 @@
+body{
+  font-weight: 500;
+  font-size: 20px;  
+  background-color: #F9F6F6;
+}
+
+.comptes{
+  
+  background-color: #F9F6F6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100% ;
+  padding-bottom: 10px;
+  
+ 
+}
+
+.cmpt{
+  background-color: #F9F6F6;
+  width: 100%;
+  height: 110vh;
+ padding-left: 10.5%;
+ overflow: auto;
+ 
+}
+.fx1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+  width: 89%;
+}
+.fx1 span{
+  color: #212121;
+font-size: 38px;
+font-weight: 700;
+line-height: 48.41px;
+
+}
+.css-128fb87-MuiDataGrid-toolbarContainer{
+  background-color: #F9F6F6;
+
+}
+.css-128fb87-MuiDataGrid-toolbarContainer button{
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 6px 0px #00000038;
+
+}
+
+
+.cmpt button{
+   
+  width: 158px;
+height: 45px;
+box-shadow: 0px 4px 6px 0px #0000001A;
+border-radius: 15px ;
+font-size: 20px;
+font-weight: 500;
+line-height: 26.82px;
+}
+
+.grid{
+  background-color: #FFFFFF;
+  width: 89%;   
+  margin-top: 50px;
+border: none ;
+border-radius: 15px;
+}
+.css-1tu88dm-MuiDataGrid-root.MuiDataGrid-root{
+  position:inherit;
+  }
+  .css-t89xny-MuiDataGrid-columnHeaderTitle{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: center;
+    
+  }
+
+  .grid button{
+    width: 40px;
+    height: 40px;
+margin-left: 10px;
+margin-bottom: 10PX;
+border-radius: 10px;
+color: #041F5A;
+}
+.grid .MuiDataGrid-footerContainer{
+    height: 10px;
+    padding-bottom: 53px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 6px 0px #D2CBCB6E;
+    border-radius: 10px;
+    
+}
+.grid .dlt, .grid .icon, .grid .icon1{
+  color: #838383;
+  margin-top: 5%;
+  
+}
+.grid .icon, .grid .icon1{
+  margin-left: 10px;
+}
+
+.grid .dlt:hover{
+color: #E87375;
+cursor: pointer;
+}
+.grid .icon:hover , .grid .icon1:hover{
+color: #01C7BE;
+cursor: pointer;
+}
+.hdr{
+    background-color: #C7D0D0;
+    color: #212121;  
+}
+
+
+.MuiDataGrid-row.Mui-odd {
+  background-color: #EFECEC; 
+  
+}
+
+.MuiDataGrid-row:nth-child(even){
+  background-color: #EFECEC;
+ 
+}
+.MuiDataGrid-columnHeaders{
+  background-color: #01C7BE;
+}
+.MuiDataGrid-container--top .MuiDataGrid-filler{
+  background: #01C7BE;
+
+}
+#etat{
+font-size: 0.8em;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+height: 30px;
+margin-top: 5%;
+}
+ 
+  
+.css-128fb87-MuiDataGrid-toolbarContainer button {
+
+  width:23%;
+  color:#041F5A;
+  margin-top: -10px   ;
+  box-shadow: 0px 4px 6px 0px #D2CBCB6E;
+  
+    }
+   
+    .lf span{
+      
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.73px;
+      text-align: left;
+      
+  text-align: left;
+  color: #212121;
+    }
+   
+    .d1, .d2, .d3{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 20px 0px;
+    }
+    .rt{
+      display: flex;
+      flex-direction: column;
+    }
+    .rt span , .d4 .sd1 .prdt{
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+text-align: left;
+color: #212121;
+margin-bottom: 11px;
+    }
+    .rt input, .rt select{
+      width: 500px;
+  height: 40px;
+ 
+  border-radius: 10px;
+  border: 1px solid #83838375;
+  background: #F6F6F6;
+  margin-bottom: 11px;
+  
+    }
+    hr{
+      width:70% ;
+      border: 1px solid #838383;
+      margin-left: 15%;
+      
+    }
+    .bce, .bci{
+      height: auto;
+      width: 100%;
+      border-radius: 15px;
+      margin-left: -7%;
+      margin-top: 22px;
+      background-color: #FFFFFF;
+      padding-left: 32px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 4px 6px 0px #00000038;
+margin-bottom: 20px;
+     
+    }
+    .d3 .rt select, .d3 .rt span{
+margin-left: -50px;
+    }
+    .bce .css-128fb87-MuiDataGrid-toolbarContainer, .bci .css-128fb87-MuiDataGrid-toolbarContainer{
+      background-color: #FFFFFF;
+    }
+    
+    .d4{
+      margin-left: 10%;
+    }
+    .d5{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-left: 10%;
+    }
+    .d5 .rt1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 200px;
+      margin-bottom: 70px;
+    }
+   
+    .d5 .rtr input{
+      width: 413px;
+  height: 40px;
+  border-radius: 10px ;
+  margin-left: -50px;
+  border: 1px solid #83838375;
+  background-color: #F6F6F6;
+    }
+    .confrm{
+      align-items: center;
+      margin-top: -20px;
+      margin-bottom: 22px;
+      margin-left: 42%;
+    }
+    .d5 span{
+      font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+text-align: left;
+color: #212121;
+margin-bottom: 10px;
+
+  
+    }
+    .rt1{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .rtr , .rtf{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    body.active-modal {
+      overflow-y: hidden;
+  }
+
+  .btn-modal {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  margin-left: 73%;
+  margin-top: 10%;
+  
+  }
+  
+  .modal, .overlay {
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+  }
+  
+  .overlay {
+      background: rgba(49,49,49,0.8);
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #FFFFFF;
+    padding: 22px;
+    border-radius: 10px;
+    max-width: 1000px;
+    min-width: 700px;
+    width: 700px;
+    height: 560px;
+    
+}
+.modal-content .grid{
+  margin-top: 400px;
+ 
+}
+.modal-content .fx{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 83%;
+  margin-top: 22px;
+}
+.MuiDataGrid-container--top .MuiDataGrid-filler .hdr{
+  background: #C7D0D0;
+}
+.modal-content .fx .css-128fb87-MuiDataGrid-toolbarContainer button{
+height: 40px;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+.modal-content .fx .css-128fb87-MuiDataGrid-toolbarContainer{
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  
+}
+ .modal-content .fx .css-rtrcn9-MuiTablePagination-root button{
+  color: #041F5A;
+ 
+
+ }
+
+.modal-content .fx .css-wop1k0-MuiDataGrid-footerContainer{
+  border-bottom: 1px solid #dedfe388;
+  
+  border-radius: 0px 0px 15px 15px;
+}
+.sd2 .grid{
+  margin-bottom: -80px;
+}
+.slct{
+  font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+line-height: 38.73px;
+text-align: center;
+width: 118px;
+height: 45px;
+margin-top: 8%;
+color: #000000;
+background: #D9D9D9;
+
+}
+.normalLineHeight {
+  line-height: normal;
+}
+.modal h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+margin-top: 20px;
+  
+  text-align: center;
+  color: #212121;
+  
+}
+.modal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal .cnr, .close-modal{
+  width: 183px;
+height: 43px;
+border-radius: 10px;
+font-size: 22px;
+font-weight: 600;
+line-height: 26.63px;
+letter-spacing: -0.15399999916553497px;
+text-align: center;
+box-shadow: 0px 4px 6px 0px #0000001A;
+}
+.close-modal{
+  background-color: #FFFFFF;
+  color: #01C7BE;
+  margin-right: 20px;
+}
+.btnn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.send:hover, .send1:hover{
+color: #01C7BE;
+cursor: pointer;
+}
+.send1, .send2{
+  margin-right: 10px;
+  color: #838383;
+  margin-top: 5%;
+}
+.send2:hover{
+ color: #E87375;
+ cursor: pointer;
+}
+.send{
+  color: #838383;
+  margin-top: 5%;
+}
+.titl {
+  margin-top: 10%;
+  margin-left: -7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  .titl h1{
+  color: #212121;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: left;
+margin-left: 5px;
+
+}
+.action-pret .icon , .action-pret .icon:hover{
+  color: #EB6060;
+}
+.quantAcc input{
+  width: 120px;
+height: 43.83px;
+box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5%;
+
+}
+.d6{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.d6 .lft , .d6 .rght{
+  display: flex;
+  flex-direction: column;
+}
+.d6 span{
+  font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #212121;
+    margin-top: 50px;
+    margin-bottom: 11px;
+   
+}
+.d6 input{
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  border: 1px solid #83838375;
+}
+.sd3 .grid{
+  width: 95%;
+  margin-left:-4%;
+}
+.bci .btnn{
+  display: flex;
+  flex-direction: row;
+  margin: 25px 200px;
+}
+.change, .env{
+  margin-top: 5%;
+}

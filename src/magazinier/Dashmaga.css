@@ -1,0 +1,54 @@
+.dashasa{
+    margin-top: 350px;
+}
+.diagramme {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F6F6;
+}
+.gauche , .droite {
+    width: 600px;
+    height: 1020px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.droite{
+    margin-right: 30px;
+    background-color: #F9F6F6;
+    
+}
+
+.haut ,.bas{
+    background-color: white;
+    width: 600px;
+    height:500px;
+    border-radius: 20px;
+   
+
+
+}
+.haut{ margin-bottom: 20px;}
+.border{
+margin-top: 50px;
+padding-top: 50px;
+    border-top: 2px solid #E5E5EF;
+   
+    width: 530px;
+    margin-left: 30px;
+    
+}
+.css-b9rdri-MuiGauge-referenceArc {
+    fill: #10273d;
+}
+
+.css-3dcfwk-MuiBarElement-root {
+    stroke: none;
+    fill: #041F5A !important;
+    -webkit-transition: opacity 0.2s ease-in, fill 0.2s ease-in;
+    transition: opacity 0.2s ease-in, fill 0.2s ease-in;
+    opacity: 1;}
+
+    .css-b9rdri-MuiGauge-referenceArc {
+        fill: #01C7BE !important;
+    }

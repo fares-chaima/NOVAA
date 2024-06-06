@@ -1,0 +1,105 @@
+.dashasa{
+width: auto;
+margin-left: 50px;
+display: flex; /* Utilisation de flexbox */
+flex-direction:column;
+justify-content: center; /* Centrer horizontalement */
+align-items: center; /* Centrer verticalement */
+}
+.dashasa .section1{
+    margin-top: -80%;
+}
+.dashboard-button{
+background-color: white;
+    height: 80px;
+    width: 240px;
+    border-radius: 10px;
+ 
+margin-bottom: 40px;
+   color:black;
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   justify-content: space-between;
+}
+.section2 h2{
+font-weight: 700;
+padding-top: 20px;
+}
+.section2{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 0px;
+    border-radius: 15px;
+}
+.mois{
+    padding-top: 20px;
+    margin-left: 600px;
+    background-color: #041F5A;
+    color:white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.section3{
+   
+border-radius: 15px;
+   
+    display: flex;
+    width: 1000px;
+    margin-top: 30px;
+    height: 800px;
+
+}
+.bar{
+    margin-right: 30px;
+    border-radius: 10px;
+   padding-left: 20px;
+    background-color: white;
+    width: 550px;
+    height: 500px;
+
+}
+.section{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+   
+}
+tr{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.ligne{
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(210, 203, 203, 0.43);
+    
+    padding: 5px 20px;
+}
+.ligne div{
+    font-size: 12px;
+    color: #9291A5;
+}
+.right{
+    
+        border-top: 1.5px solid #E5E5EF;
+        padding: 20px; /* Ajout de padding pour démontrer la bordure */
+    padding-top: 20px;
+    padding-right: 30px;
+    
+  
+}
+
+
+
+.button-container{
+display:flex
+}
+
+span{
+    font-weight: 700;
+}

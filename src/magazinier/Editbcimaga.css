@@ -1,0 +1,60 @@
+.Editbcimaga body{
+
+    background-color: #F9F6F6;
+}
+.contcreerbci{
+    background-color: rgb(255, 255, 255);
+    width:80%;
+
+
+
+}
+
+
+
+
+
+.btngroup{
+    display: flex;
+   margin-bottom: 80px;
+    margin-top: 0px;
+    margin-left: 80px;
+   
+}
+.partiedemande{
+    flex-direction: column;
+    display: flex;
+justify-content: space-between;
+
+}
+.demandeinput{
+    background-color: #eaeaea;
+    width:300px;
+    height:40px;
+    border-radius:10px ;
+    margin-top: 15px;
+    font-size: 12px;
+    padding-left: 10px;
+ 
+ 
+    border: 1px solid #9a9898;
+
+
+
+
+}
+.demandelab{
+    font-size: 15px;
+    font-weight: 500;
+
+
+
+}
+
+.qteaccordee{
+
+  background-color: aqua;
+
+
+
+}

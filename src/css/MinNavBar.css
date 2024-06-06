@@ -1,0 +1,82 @@
+.MinNavBar{
+    position: absolute;
+       display: flex;
+       flex-direction: row;
+       align-items:center;
+       justify-content: space-between;
+       width: 100.75%;
+    height: 10%;
+    box-shadow: 0px 4px 6px 0px #D2CBCB6E;
+    background-color: #FFFFFF;
+    
+    
+    }
+    
+    .MinNavBar a img{
+       
+        border-radius: 100%;
+        width: 55px;
+        height: 55px;
+    }
+    .notification:hover{
+        color: #01C7BE;
+    }
+    .notification{
+    margin-right: -80%;
+    }
+     .logo{
+        margin-top: -10px;
+        ;
+    }
+    .logo span {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26.82px;
+        margin-top: -10px;
+        }
+        .logo img{
+            width: 126px;
+        height: 71px;
+        
+        
+        }
+        .menu1 a{
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 26.82px;
+            text-align: left;       
+            text-decoration: none;
+            padding: 20px;
+            width: 100%;
+    
+        }
+        .menu1 a:hover{
+            text-decoration: none;
+            background-color: #FFFFFF;
+        }
+       .menu1{
+        background-color: #D9D9D9;
+        position:absolute;
+        margin-top: 60px;
+        margin-left:76%;
+        height: 130px;
+        padding-left: 20px;
+    width: 240px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: 0px 4px 4px 0px #00000040;
+       }
+       .profile img{
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #2EDDD8;
+        margin-right: 10px;
+       }
+       .pfl{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       }

@@ -1,0 +1,231 @@
+.top{
+display: flex;
+margin-left: -10%;
+margin-top: 6%;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+}
+.top .d1{
+    width:32% ;
+height: 128px;
+   
+border-radius: 15px ;
+background-color: #FFFFFF;
+box-shadow: 0px 2px 6px 0px #0000001A;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+color: #212121;
+}
+.top .d1 .txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.top .d1 .txt span{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: #041F5A;
+}
+.top .d1 .txt p{
+font-size: 20px;
+font-weight: 500;
+line-height: 24.2px;
+color: #615E83;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10%;
+    
+}
+.chart2{
+    width: 32%;
+    height: 431px;
+    top: 267px;
+    left: 1025px;
+    gap: 0px;
+    border-radius: 15px;
+    
+    box-shadow: 0px 2px 6px 0px #0000001A;  
+    background: #FFFFFF;
+    
+
+}
+.chart1{
+    width: 64%;
+height: 431px;
+top: 267px;
+left: 125px;
+gap: 0px;
+opacity: 0px;
+border-radius: 15px;
+box-shadow: 0px 2px 6px 0px #0000001A;
+background: #FFFFFF;
+margin-right: 20px;
+}
+.chart1 .ttl{
+margin-top: 30px;
+margin-left: 4%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.chart2 .ttl{
+    margin-top: 30px;
+    margin-left: 4%;  
+}
+.chart1 .fltr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+    
+}
+.chart1 .fltr3 select{
+    color: #FFFFFF;
+    background-color: #041F5A;
+    width: 110px;
+    height: 35px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.chart1 .fltr .fltr3{
+    background-color: #F8F8FF;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 8px;
+    
+}
+.chart1 hr{
+    border: 1px solid #E5E5EF;
+    margin-top: 20px;
+    width: 700px;
+    margin-left: 4%;
+}
+.chrtp{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9291A5;
+    
+}
+.chrtT{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #1E1B39;
+    
+}
+.css-arptep-MuiResponsiveChart-container{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.css-1k2u9zb-MuiChartsAxis-root{
+    stroke: rgb(190, 189, 194);  
+}
+
+.chart2 hr{
+    border: 1px solid #E5E5EF;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.chrt .css-uguv5e-MuiResponsiveChart-container{
+    margin-left: 50px;
+}
+.chart2  .MuiBar-root {
+    height: 20px;
+   
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line{
+    stroke: #E5E5EF;
+    display: none;
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick{
+   
+    display: none;
+}
+.chart2 .prcn{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #615E83; 
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.chart1 .css-ru85wt-MuiMarkElement-root{
+    stroke: #1584A7;
+}
+.chart3{
+    width: 50%;
+height: 320px;
+border: 1px 0px 0px 0px;
+background-color: #FFFFFF;
+box-shadow: 0px 2px 6px 0px #0000001A;  
+border-radius: 15px;
+padding: 20px 20px;
+
+}
+.chart3 hr{
+    border: 1px solid #E5E5EF;
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 1%;
+}
+.chart3 .chrt{
+    margin-left: 4%;
+    margin-top: -6%;
+}
+.chart3 .chrt p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #9291A5;  
+    margin-left: 95%;
+    margin-top: -6%;
+}
+.chart4{
+    width: 40%;
+    height: 320px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 6px 0px #0000001A;  
+
+   margin-left: 20px;
+
+padding: 20px 20px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  margin-left: -10%;
+  margin-top: 2%; 
+  margin-bottom: 10px;
+}
+.chart4 hr{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #E5E5EF;
+}
+.chart4 .PieChart{
+    margin-top: 10%;
+  margin-left: -20%;
+
+}
+
+
+

@@ -1,0 +1,48 @@
+.groupe1{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+justify-content: space-between;
+width: 89.5%;
+margin-left: 10.2%;
+}
+.groupe1 h1{
+   
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: left;
+color: #121212;
+
+}
+.btnajouter{
+    border-radius:10px;
+    width: 200px;
+    margin-left: 500px;
+
+
+
+}
+.contbci{
+    margin-top: -50%;
+    margin-left: -2.5%;  
+padding: 50px;
+
+}
+.listedebci{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+ 
+  
+  
+ 
+  
+  
+  

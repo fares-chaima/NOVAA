@@ -1,0 +1,151 @@
+.btmm{
+    display: flex;
+    flex-direction: row;
+}
+.cmpt .top .d2{
+    width: 22%;
+    height: 128px;
+   
+border-radius: 15px ;
+background-color: #FFFFFF;
+box-shadow: 0px 2px 6px 0px #0000001A;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+color: #212121;
+}
+.top .d2 .txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.top .d2 .txt span{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: #041F5A;
+}
+.top .d2 .txt p{
+font-size: 20px;
+font-weight: 500;
+line-height: 24.2px;
+color: #615E83;
+}
+.rgt{
+    width: 30.5%;
+height: 100%;
+box-shadow: 0px 4px 6px 0px #0000001A;
+background: #FFFFFF;
+border-radius: 15px;
+padding: 30px 25px;
+margin-bottom: 20px;
+}
+.rgt hr, .lft .chrt2 hr , .lft .chrt1 hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border: 1px solid #E5E5EF;  
+}
+.rgt .chrt  {
+margin-left: 4%;
+margin-top: -5%;
+}
+  .fltr1, .fltr2{
+    background: #F8F8FF;
+border-radius: 15px;
+    padding: 5px;
+    width: 112.21px;
+    height: 40px ;
+    margin-top: 10px;
+    margin-left: 65%;
+  } 
+  .fltr1 select, .fltr2 select{
+    background: #041F5A;
+    width: 112.21px;
+    height: 40px ;  
+    padding: 10px ;
+   color: #FFFFFF;
+   font-size: 14px;
+    border-radius: 15px;   
+  } 
+
+  .lft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin-right: 20px;
+   margin-left: -10%;
+   margin-bottom: 20px;
+  }
+  .lft .chrt1{
+  width: 93%;
+    height: 60%;
+    top: 274px;
+    left: 145px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+background: #FFFFFF;    
+box-shadow: 0px 2px 6px 0px #0000001A;
+padding: 20px 15px;
+  }
+ 
+  .lft .chrt2{
+    margin-top: 20px;
+   width: 93%;
+    height: 40%;
+    top: 767px;
+    left: 156px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+background: #FFFFFF;
+box-shadow: 0px 2px 6px 0px #0000001A;
+padding: 20px 15px;
+  }
+  .fltr2{
+margin-left: 80%;
+  }
+  .chrt1 .css-ru85wt-MuiMarkElement-root{
+    stroke: #1584A7;
+}
+.chrt2 .PieChart{
+    margin-top: 20px;
+    margin-left: -10%;
+}
+.rgt .chrtP{
+  margin-left: 20%;
+  margin-top: -20%;
+}
+.accounts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.accounts img{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+.accounts span{
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #9291A5;
+}
+.act1{
+  width: 714px;
+  height: 59px;
+  margin-top: 3%;
+  border-radius: 15px ;
+  background: #F9F6F6;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

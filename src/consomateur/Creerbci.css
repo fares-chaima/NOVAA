@@ -1,0 +1,155 @@
+.contcreerbci{
+
+margin-top: -50%;
+margin-left: 12%;
+background-color:#FFFFFF;
+border-radius: 20px;
+padding: 10px 30px;
+
+
+
+}
+.bcigr{
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+.bcigr .css-128fb87-MuiDataGrid-toolbarContainer{
+background-color: #FFFFFF;
+width: 100%;
+
+}
+.partiebouton{
+    background-color:rgb(255, 255, 255);
+    padding-bottom: 10px;
+    border-radius: 20px;
+margin-top: 30px;
+
+
+}
+.titrebci{
+    font-size:40px;
+    font-weight: bold;
+
+
+
+}
+.partiesec{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.partie1,.partie2,.partieform,.partieproduit{
+    display: flex;
+    margin: 50px;
+}
+.partieproduit{
+    margin-top:0px;
+}
+.partieform{
+ 
+    display: flex;
+    width:900px;
+    flex-direction:row;
+    
+}
+.partiedemandeur,.partierestant,.partiedirection{
+  
+    margin-left:50px;
+
+}
+.inputdirection,.inputrestant,.inputdemandeur{
+    background-color: #eaeaea;
+    width:100%;
+    height:40px;
+    border-radius:10px ;
+    margin-top: 15px;
+    font-size: 12px;
+    padding-left: 10px;
+
+}
+.labeldirection,.labeldemandeur,.labelrestant{
+    font-size: 15px;
+
+}
+.icnbci{
+    margin-top:7px;
+    margin-right:5px
+}
+
+
+
+
+
+.ajouter ,.annuler,.confirmer{
+    background-color: #01C7BE    ;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width:200px;
+    font-size: 23px;
+}
+.ajouter{
+    margin-left: 80%;
+    width:150px;
+    height: 43px;
+    
+    font-size: 22px;
+   
+    
+}
+
+
+.annuler{
+    background-color: #ffffff;
+    color:#01C7BE ;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.annuler:hover{
+    color:white
+    
+}
+.annuler,.confirmer{
+   margin-left: 17%;
+
+}
+.btngroup{
+    display: flex;
+   margin-bottom: 80px;
+    margin-top: 80px;
+   
+   
+}
+
+
+.quantity-input{
+ 
+
+
+ width:320px;
+ padding: 100px;
+}
+.partieproduit h3{
+    margin-top: 20px;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

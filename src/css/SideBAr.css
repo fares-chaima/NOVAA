@@ -1,0 +1,91 @@
+*{
+    
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26.82px;
+
+    
+}
+body{
+   
+margin-left: -10px;
+  /* additions here*/
+  height: 100vh;
+
+}
+.inn{
+    width: 37px;
+    height: 37px;
+}
+nav{
+    border: none;
+    margin-left: 14px;
+  
+}
+#sidebar{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position: sticky;
+}
+
+#sidebar a:hover{
+    background-color: #A5C8D7;
+}
+#sidebar span{
+font-size: 0.8em;
+font-weight: 600;
+color: #F9FAFB;
+}
+#sidebar .css-18unl23 span, #sidebar .css-wlra1l span{
+    color: #212121;    
+}
+#sidebar .css-18unl23, #sidebar .css-wlra1l {
+    background-color: #DFE9ED;
+    padding-top: 0px;
+   position:absolute;
+    
+}
+#logo{
+    font-weight: 700;
+}
+
+ 
+#pr{
+    margin-left:10px;
+    margin-top: -0px;
+}
+.prfl{
+    width: auto;
+    text-decoration: none;
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #F3F3F3;
+border-radius: 90px;
+
+
+
+}
+.prfl a{
+ font-size: 18px;
+font-weight: 700;
+line-height: 26.82px;
+text-decoration: none;
+}
+.prfl img {
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+MenuItem {
+    margin-left: 100px;
+}
+SubMenu img{
+    
+}
+img{
+    border-radius: 0px;
+}
+.css-atxc5o{
+    background-color: #22908b;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   
+    background-color: #F9F6F6  ;
+    }
+.form{
+    background-color: #FFFFFF;
+background-image: url(../images/FormBg.svg);
+    position: absolute;
+    background-position-y: -2px;
+ width: 67%;
+height: 400px;
+border-radius: 30px ;
+border: 0.5px 0px 0px 0px;
+box-shadow: 0px 4px 20px 1px #00000040;
+ background-repeat: no-repeat;
+margin: 14% 16%;
+display: flex;
+padding: 70px 10px;
+flex-direction: column;
+align-items: flex-end;
+}
+form {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   margin-right: 30px;
+}
+form span {
+    font-family: Moul;
+font-size: 2.2em;
+font-weight: 400;
+line-height: 72.27px;
+text-align: center;
+
+
+color:  #01C7BE;
+
+}
+form a {
+    color: #000000;
+    padding: 5px;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+
+
+}
+input {
+   width: 280px; 
+   height:55px;
+   border-radius: 1px;
+   border: 0px ;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+padding: 2px;
+
+  
+}
+form img {
+    width: 26px;
+    height: 26px;
+    margin: 10px;
+}
+.email ,.pwd{
+    width: 350px;
+    height: auto;
+    border-bottom: 2px solid;
+   border-color:linear-gradient(0deg, #282626, #282626) ;
+   margin: 25px 10px;
+   display: flex;
+   align-items: center;
+ 
+}
+button{
+    width: 250px;
+height: 55px;
+border-radius: 90px ;
+background-color: #01C7BE;
+border: 0px;
+font-size: 1.55em;
+font-weight: 600;
+line-height: 36.57px;
+color: #FFFFFF;
+margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #6ae0da;
+}
+
+.pwdOub span {
+    margin-left: 80px;
+}
+.pwdOub span .err, .err{
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 48.76px;
+    margin-left: -10px;
+}
+.pwdOub .email{
+margin-top: 60px;
+margin-left: 90px;
+}
+.pwdOub button{
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.rtr {
+    margin-left: 90px;
+    text-decoration: none;
+}
+.rtr:hover{
+    text-decoration: underline;
+}
+.rtr1:hover{
+    text-decoration: underline; 
+}

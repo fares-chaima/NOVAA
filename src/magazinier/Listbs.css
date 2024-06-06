@@ -1,0 +1,13 @@
+.listedebs{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 00px;
+}
+
+.btnajouter{
+    border-radius:10px;
+    width: 158px;
+    height: 43px;
+    margin-left: 220px;
+    font-size: 22px;
+}
